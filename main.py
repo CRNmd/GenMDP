@@ -39,7 +39,7 @@ frame = Frame(window, bg='#4065A4')
 
 
 
-salut = Label(frame, text="Le mdp va etre generer ici", font=("Helvetica", 20), bg='#4065A4', fg='white')
+salut = Label(frame, text="MDP généré :", font=("Helvetica", 20), bg='#4065A4', fg='white')
 salut.pack()
 
 password_entry = Entry(frame, text="Mot de passe", font=("Helvetica", 20), bg='#4065A4', fg='white')
